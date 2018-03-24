@@ -1,0 +1,141 @@
+body{
+	background-color: #fff;
+	color: #000;
+	font-family: "Angsana New";
+	padding: 0 0 0 0;
+}
+
+header{
+	border: 1px ;
+	border-style: solid;
+	width: 100%;
+	height: 250px;
+	display: block;
+	background-image: url(../img/fondoheader.png) ;
+}
+
+header img{
+	width: 250px;
+	height: 200px;
+	background-color: transparent;
+}
+
+#logo-izq{
+	margin-top: 1%;
+	margin-left: 1%;
+	float: left;
+}
+
+header h1{
+	margin-top: 5%;
+	margin-left: 50%;
+	font-weight: bold;
+	color: #F0B429;
+	font-style: italic;
+	float: left;
+}
+
+#logo-der{
+ 	margin-top: 1%;
+	margin-right: 1%;
+	float: right;
+}
+
+a{
+	text-decoration: none;
+	color:dodgerblue;
+	font-size: 1em;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:darkblue;
+}
+
+/*img{
+	max-width: 100%;
+}*/
+
+#navbar{
+	border: 1px;
+	border-style: solid;
+	width: 100%;
+	height: 50px;
+	display: block;
+	z-index: 100;
+	background: #005883;
+}
+
+#navbar ul{
+	list-style-type: none;
+	margin-left: 5%;
+	padding: 0;	
+}
+
+#navbar li{
+	float: left;
+}
+
+#navbar .lista-ppal li a{
+	padding: 15px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+
+}
+
+#navbar .lista-ppal li a:hover{
+	background-color: #F47920;
+	color: black;
+}
+
+#navbar .lista-nav{
+	float: right;
+	margin-right: 25%;
+	text-align: center;
+}
+
+#navbar .lista-nav li a{
+	padding: 0px;
+	display: inline-block;
+	text-align: center;
+}
+#navbar .lista-nav img{
+	width: 50%;
+	height: 50%;
+}
+
+#content{
+	margin: 0 0 0 0;
+	background-color: #fff;
+}
+
+section{
+	float: left;
+	padding: 10px 10px;
+	width: 80%;
+}
+
+aside{
+	float: left;
+	width: 20%;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+aside img{
+	width: 120px;
+	height: 120px;
+}
+
+footer{
+	clear:both;
+	width: 100%;
+	background-color: #333333;
+	text-align: center;
+	height: 100px;
+	padding: 25px;
+
+}
