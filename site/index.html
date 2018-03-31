@@ -1,35 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" class="no-js">
 	<head>
-		<meta charset    ="utf-8">
+		<meta charset="utf-8">
 		<meta http-equiv ="X-UA-Compatible" content="IE=edge">
-		<meta name       ="viewport" content="width=device-width, initial-scale=1">     
-		<title>OVA Administracion de Base de Datos</title>    
-		<link href       ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<script src      ="https://use.fontawesome.com/78a03bac99.js"></script>
-		<link rel        ="stylesheet" type="text/css" href="css/estilos.css">
-		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>OVA Administracion de Base de Datos</title>
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/prefixfree.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/scrip.js"></script>
+
+
 	</head>
 	<body>
 		<header>
-<!-- 			<img id="logo-izq" src="img/BaseDatos.jpg" alt="">
- -->			<h1>OVA. Administracion de Base de Datos</h1>
-<!--  			<img id="logo-der" src="img/MySQL.png" alt="">
- --> 		</header>
+			<div id="logo-izq"></div>
+ 			<h1>OVA. Administracion de Base de Datos</h1>
+			<div id="logo-der"></div>
+		</header>
 		<nav id="navbar">
-		    <ul class="lista-ppal">
-                 <li><a href="index.html">Inicio</a></li>
-                 <li><a href="lecturas.html">Lecturas</a></li>
-                 <li><a href="multimedia.html">Multimedia</a></li>
-                 <li><a href="actividades.html">Actividades</a></li>
-                 <li><a href="autores.html">Autores</a></li>
-            </ul>
-             <ul class="lista-nav">
-            	<li><a href="#"><img src="img/flecha-izquierda.png" alt=""></a></li>
-            	<li><a href="#"><img src="img/flecha-derecha.png" alt=""></a></li>
-            </ul>
+		    <ul id="lista-ppal">
+        	<li><a href="index.html">Inicio</a></li>
+          <li><a href="lecturas.html">Lecturas</a>
+						<ul>
+							<li><a href="#" alt="">Lectura1</a></li>
+							<li><a href="#" alt="">Lectura2</a></li>
+							<li><a href="#" alt="">Lectura3</a></li>
+							<li><a href="#" alt="">Lectura4</a></li>
+							<li><a href="#" alt="">Lectura5</a></li>
+						</ul>
+					</li>
+					<li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="actividades.html">Actividades</a>
+						<ul>
+							<li><a href="#" alt="">Actividad1</a></li>
+							<li><a href="#" alt="">Actividad2</a></li>
+							<li><a href="#" alt="">Actividad3</a></li>
+						</ul>
+					</li>
+          <li><a href="autores.html">Autores</a></li>
+        </ul>
+        <ul id="lista-nav">
+        	<li><a href="#"><div id="atras"></div></a></li>
+        	<li><a href="#"><div id="siguiente"></div></a></li>
+        </ul>
  		</nav>
-		<div id="content">
+		<main id="content">
+			<div id="redes">
+				<a href="http://twitter.com/UniversidadUNAD"><img src="svg/gorjeo.svg" alt="Twiter UNAD"></a>
+				<a href="https://www.facebook.com/UniversidadUNAD"><img src="svg/facebook.svg" alt="Facebook UNAD"></a>
+				<a href="http://www.youtube.com/universidadunad"><img src="svg/youtube.svg" alt="Youtube UNAD"></a>
+				<a href="https://www.flickr.com/photos/universidadunad"><img src="svg/flickr.svg" alt="Flickr UNAD"></a>
+				<a href="https://www.instagram.com/universidadunad/"><img src="svg/instagram.svg" alt="Instagram UNAD"></a>
+			</div>
 			<section id="principal">
 
 				<h2>Seccion donde se colocaran los contenidos de acuerdo a la pagina</h2>
@@ -67,12 +96,13 @@
 				<br>
 				<h3>Visitas</h3>
 				<img src="img/visitas.png" alt="">
+				<!-- <div id="tab-one"> -->
 				<h3>101</h3>
 
 			</aside>
 			<footer>
-				<p>Todos los derechos reservados</p>
+				<p>Copyringht &copy; Diseño de sitios web grupo 301122_34 periodo 1-2018 -- Todos los derechos reservados</p>
 			</footer>
-		</div>
+		</main>
 	</body>
 </html>
