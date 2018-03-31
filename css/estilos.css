@@ -173,16 +173,12 @@ aside{
 	border-left: 0.1875rem solid rgba(0,0,0,0.6);
 }
 aside img{
-	width: 120px;
-	height: 120px;
+	width: 7.5rem;
+	height: 7.5rem;
 }
-#tab-on{
-    /* position: absolute; */
-    width: 130px;
-    height: 20px;
-    /* top: 35px;
-    left: 25px; */
-    cursor: pointer;
+#contador{
+    width: 7.5rem;
+    height: 2.5rem;
 }
 footer{
 	clear:both;
