@@ -156,6 +156,13 @@ header h1{
 	float: left;
 	margin: 0.2rem 0;
 }
+#twitterUNAD{
+	height: 22rem;
+    width: 17rem;
+    box-sizing: border-box;
+    overflow-x: scroll;
+
+}
 section{
 	display: block;
 	float: left;
