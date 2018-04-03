@@ -21,8 +21,7 @@ header{
 	z-index: 100;
 }
 #logo-izq{
-	position: absolute;
-	display: block;
+	position:absolute;
 	top: 51%;
 	left: 35%;
 	width: 8rem;
@@ -85,6 +84,8 @@ header h1{
 	background-color: rgba(0,88,181,1);
 	color: rgba(0,0,0,1);
 	display: none;
+	width: 10rem;
+	height: auto;
 }
 #lista-ppal{
 	height: 100%;
@@ -101,6 +102,9 @@ header h1{
 }
 #lista-ppal li a:hover + ul, #lista-ppal li ul:hover, #lista-ppal li a:active + ul, #lista-ppal li ul:active{
 	display: block;
+}
+#lista-ppal li ul li a{
+	font-size: 0.8em;
 }
 #lista-nav{
 	height: 100%;
@@ -157,10 +161,10 @@ header h1{
 	margin: 0.2rem 0;
 }
 #twitterUNAD{
-	height: 22rem;
-    width: 17rem;
-    box-sizing: border-box;
-    overflow-x: scroll;
+	height: 20em;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: scroll;
 
 }
 section{
@@ -183,6 +187,11 @@ aside img{
 	width: 7.5rem;
 	height: 7.5rem;
 }
+
+.programa{
+	margin: 0;
+}
+
 #contador{
     width: 7.5rem;
     height: 2.5rem;
