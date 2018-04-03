@@ -96,6 +96,11 @@ header h1{
 	color: rgba(255,255,255,1);
 	transition: all 0.5s;
 }
+#lista-ppal li ul li a{
+	width: 10rem;
+	height: auto;
+	font-size: 0.8em;
+}
 #lista-ppal li a:hover, #lista-ppal li a:active{
 	background-color: rgba(244,121,32,1);
 }
@@ -157,11 +162,10 @@ header h1{
 	margin: 0.2rem 0;
 }
 #twitterUNAD{
-	height: 22rem;
-    width: 17rem;
-    box-sizing: border-box;
-    overflow-x: scroll;
-
+	height: 20rem;
+  width: auto;
+  /* box-sizing: border-box; */
+  overflow-x: scroll;
 }
 section{
 	display: block;
@@ -183,6 +187,10 @@ aside img{
 	width: 7.5rem;
 	height: 7.5rem;
 }
+.programa{
+	margin: 0;
+}
+
 #contador{
     width: 7.5rem;
     height: 2.5rem;
