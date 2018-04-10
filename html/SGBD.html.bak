@@ -26,7 +26,7 @@
   <body>
     <header>
       <div id="logo-izq"></div>
-      <h1>OVA. Administracion de Base de Datos</h1>
+      <h1>OVI. Administracion de Base de Datos</h1>
       <div id="logo-der"></div>
     </header>
     <nav id="navbar">
