@@ -34,24 +34,27 @@
     <nav id="navbar">
       <ul id="lista-ppal">
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="lecturas.html">Lecturas</a>
+        <li><a href="">Lecturas</a>
           <ul>
             <li><a href="html/SGBD.html" alt="">Introduccion a SGBD</a></li>
-            <li><a href="html/intmodrel.html" alt="">Introduccion al Modelo Relacional</a></li>
-            <li><a href="html/digmodrel.html" alt="">Diseño del Modelo Relacional</a></li>
+            <li><a href="html/intmodrel.html" alt="">Introduccion al Modelo
+                Relacional</a></li>
+            <li><a href="html/digmodrel.html" alt="">Diseño del Modelo
+                Relacional</a></li>
             <li><a href="#" alt="">Introduccion a SQL</a></li>
             <li><a href="#" alt="">Explicacion de Sub-lenguajes SQL - LMD, LDD,
                 LCD</a></li>
           </ul>
         </li>
-        <li><a href="multimedia.html">Multimedia</a>
+        <li><a href="">Multimedia</a>
           <ul>
-            <li><a href="#" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
-            <li><a href="#" alt="">Instalacion de MySQL y Creacion de Modelo
-                Relacional</a></li>
+            <li><a href="">Videos:Introduccion a SGBD,Modelo Relacional y
+                Estructura</a></li>
+            <li><a href="html/instconfmysqlmodrel.html" alt="">Videos:Instalación
+                y Configuración Mysql - Workbench - Modelo Relacional</a></li>
           </ul>
         </li>
-        <li><a href="actividades.html">Actividades</a>
+        <li><a href="">Actividades</a>
           <ul>
             <li><a href="#" alt="">Actividad1</a></li>
             <li><a href="#" alt="">Actividad2</a></li>
@@ -155,8 +158,8 @@
       <aside> <a href="https://www.unad.edu.co/"><img src="img/unad.jpg" alt=""></a>
         <br>
         <br>
-        <a href="https://campus0a.unad.edu.co/campus0/login/index.php">Ingreso
-          al Campus Virtual</a> <br>
+        <button onclick="location.href='https://campus0a.unad.edu.co/campus0/login/index.php'">Ingreso
+          al Campus Virtual</button> <br>
         <br>
         <br>
         <br>
@@ -179,6 +182,7 @@
         <div id="twitterUNAD"> <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
             by @UniversidadUNAD</a> </div>
         <br>
+        <!--Widget -  Contador de Visitas -->
         <h3>Visitas</h3>
         <img src="img/visitas.png" alt=""> <a href="http://www.reliablecounter.com"
 
@@ -188,8 +192,10 @@
         <a href="http://cuerpoaldente.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
       </aside>
       <footer>
-        <p>Copyright © Diseño de sitios web grupo 301122_34 periodo 1-2018 --
-          Todos los derechos reservados</p>
+        <p>Diseño de sitios web grupo 301122_34 periodo 1-2018 -- Obra publicada
+          con <br>
+          <a href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia
+            Creative Commons Reconocimiento Compartir igual 4.0</a> </p>
       </footer>
     </main>
   </body>
