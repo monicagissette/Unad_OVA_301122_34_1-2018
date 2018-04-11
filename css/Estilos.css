@@ -14,3 +14,14 @@ border: solid blue;
 border-radius: 20px;
 padding: 5px;
 }
+
+.caja 
+{
+border: 1px solid blue;
+box-sizing:border-box;
+color: #444;
+float: left;
+padding: 1em;
+width: 50%;
+
+}
