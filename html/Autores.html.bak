@@ -35,7 +35,7 @@
     <nav id="navbar">
       <ul id="lista-ppal">
         <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../html/lectura.html">Lecturas</a>
+        <li><a href="../lecturas.html">Lecturas</a>
           <ul>
             <li><a href="../html/SGBD.html" alt="">Introduccion a SGBD</a></li>
             <li><a href="../html/intmodrel.html" alt="">Introduccion al Modelo
