@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
 
       rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../js/prefixfree.js"></script>
@@ -65,7 +67,7 @@
                 alt="" target="_blank">Actividad 3</a></li>
           </ul>
         </li>
-        <li><a href="../html/autores.html">Autores</a></li>
+        <li><a href="../html/Autores.html">Autores</a></li>
       </ul>
       <ul id="lista-nav">
         <li><a href="#">
@@ -99,8 +101,36 @@
           encuentra disponibles en el recurso online <strong>es.educaplay.com</strong>
           a continuación.</p>
         <br>
-
         <br>
+        <div class="w3-content w3-display-container">
+  <img class="mySlides" src="../img/sopa.jpg" style="width:100%">
+  <img class="mySlides" src="../img/relacion.jpg" style="width:100%">
+  <img class="mySlides" src="../img/test.jpg" onclick="location.href='https://es.educaplay.com/es/recursoseducativos/3630070/html5/actividad_1.htm#%21'" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
         
         <ul>
           <li><a href="https://es.educaplay.com/es/recursoseducativos/3630070/html5/actividad_1.htm#%21"
