@@ -163,7 +163,7 @@ header h1{
 }
 #twitterUNAD{
 	height: 30rem;
-  width: auto;
+  width: 100%;
   /* box-sizing: border-box; */
   overflow-x: scroll;
 }
@@ -194,6 +194,40 @@ aside img{
 #contador{
     width: 7.5rem;
     height: 2.5rem;
+}
+.justifier
+
+{
+  text-align: justify;
+
+}
+
+.db_img{
+	margin: 0;
+	text-align: center;
+}
+
+button{
+    padding: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 5px;
+    background: rgba(0,88,181,1);
+	border-radius: 5px;
+
+}
+
+button:hover {
+ color: #1883ba;
+ background-color: #ffffff;
+
+}
+
+
+#imgdbmult{
+	height: 230px;
+	width: 300px;
 }
 footer{
 	clear:both;
