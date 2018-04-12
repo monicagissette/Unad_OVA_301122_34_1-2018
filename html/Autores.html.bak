@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/Estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
       rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
       rel="stylesheet">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,17 +23,19 @@
     <!--script Cronologia de Twitter UNAD -->
     <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!--Fin script  Cronologia de Twitter UNAD-->
+    <!--Icono unad para el titulo-->
+    <link rel="icon" href="../img/logo_unad.gif.png">
   </head>
   <body>
     <header>
       <div id="logo-izq"></div>
-      <h1>OVA. Administracion de Base de Datos</h1>
+      <h1>OVA. Administración de Base de Datos</h1>
       <div id="logo-der"></div>
     </header>
     <nav id="navbar">
       <ul id="lista-ppal">
         <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../lecturas.html">Lecturas</a>
+        <li><a href="../html/lectura.html">Lecturas</a>
           <ul>
             <li><a href="../html/SGBD.html" alt="">Introduccion a SGBD</a></li>
             <li><a href="../html/intmodrel.html" alt="">Introduccion al Modelo
@@ -47,21 +47,21 @@
                 LCD</a></li>
           </ul>
         </li>
-        <li><a href="multimedia.html">Multimedia</a>
+        <li><a href="../html/multimedia.html">Multimedia</a>
           <ul>
             <li><a href="#" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
-            <li><a href="#" alt="">Instalacion de MySQL y Creacion de Modelo
-                Relacional</a></li>
+            <li><a href="../html/intsgbdmodrel.html" alt="">Instalacion de MySQL
+                y Creacion de Modelo Relacional</a></li>
           </ul>
         </li>
-        <li><a href="actividades.html">Actividades</a>
+        <li><a href="../html/actividades.html">Actividades</a>
           <ul>
             <li><a href="#" alt="">Actividad1</a></li>
             <li><a href="#" alt="">Actividad2</a></li>
             <li><a href="#" alt="">Actividad3</a></li>
           </ul>
         </li>
-        <li><a href="autores.html">Autores</a></li>
+        <li><a href="../html/Autores.html">Autores</a></li>
       </ul>
       <ul id="lista-nav">
         <li><a href="#">
@@ -75,16 +75,11 @@
       </ul>
     </nav>
     <main id="content">
-      <div id="redes"> <a href="http://twitter.com/UniversidadUNAD"><img src="../svg/gorjeo.svg"
-
-            alt="Twiter UNAD"></a> <a href="https://www.facebook.com/UniversidadUNAD"><img
-
-            src="../svg/facebook.svg" alt="Facebook UNAD"></a> <a href="http://www.youtube.com/universidadunad"><img
-
-            src="../svg/youtube.svg" alt="Youtube UNAD"></a> <a href="https://www.flickr.com/photos/universidadunad"><img
-
-            src="../svg/flickr.svg" alt="Flickr UNAD"></a> <a href="https://www.instagram.com/universidadunad/"><img
-
+      <div id="redes"> <a href="http://twitter.com/UniversidadUNAD"><img src="../svg/gorjeo.svg"
+            alt="Twiter UNAD"></a> <a href="https://www.facebook.com/UniversidadUNAD"><img
+            src="../svg/facebook.svg" alt="Facebook UNAD"></a> <a href="http://www.youtube.com/universidadunad"><img
+            src="../svg/youtube.svg" alt="Youtube UNAD"></a> <a href="https://www.flickr.com/photos/universidadunad"><img
+            src="../svg/flickr.svg" alt="Flickr UNAD"></a> <a href="https://www.instagram.com/universidadunad/"><img
             src="../svg/instagram.svg" alt="Instagram UNAD"></a> </div>
       <section id="principal">
         <title> Autores </title>
@@ -97,33 +92,26 @@
               <tr>
                 <td>
                   <h3>
-                    <p> <strong> <i> Nombre: MONICA GISSETT AMAYA</i></strong><i>
-                      </i>
-                      <br>
+                    <p> <strong> <i> Nombre: MÓNICA GISSETT AMAYA</i></strong><i>
+                      </i> <br>
                       Código: 1144169860 <br>
-                      Correo Electrónico: mgamayaa@unadvirtual.edu.co
-                      <br>
+                      Correo Electrónico: mgamayaa@unadvirtual.edu.co <br>
                       Programa: Ingeniería de sistemas <br>
                       Usuario Skype: gissettmon </p>
                   </h3>
                 </td>
-                <td> <img id="Fotos" src="../img/Monica%20Gissett.jpg" height="130"
-
+                <td> <img id="Fotos" src="../img/Monica%20Gissett.jpg" height="130"
                     width="130"> </td>
               </tr>
               <tr>
                 <td>
                   <h3>
                     <p> <strong> <i>Nombre: ANGIE LIZBETTH ARANGO</i></strong><i>
-                      </i>
-                      <br>
-                      Código: 1144189875
-                      <br>
+                      </i> <br>
+                      Código: 1144189875 <br>
                       Programa: Ingeniería de sistemas <br>
-                      Correo Electrónico: alarangob@unadvirtual.edu.co
-                      <br>
-                      Usuario Skype: lizbonilla95
-                    </p>
+                      Correo Electrónico: alarangob@unadvirtual.edu.co <br>
+                      Usuario Skype: lizbonilla95 </p>
                   </h3>
                 </td>
                 <td> <img id="Fotos" src="../img/Angie.jpg" height="130" width="130">
@@ -133,50 +121,42 @@
                 <td>
                   <h3>
                     <p> <strong> <i>Nombre: CARLOS HERNAN ARROYO</i></strong><i>
-                      </i>
-                      <br>
-                      Código: 4372214
-                      <br>
+                      </i> <br>
+                      Código: 4372214 <br>
                       Programa: Ingeniería de sistemas <br>
                       Correo Electrónico: <br>
                       Usuario Skype: </p>
                   </h3>
                 </td>
-                <td> <img id="Fotos" src="../img/Carlos%20Hernan.jpg" height="130"
-
+                <td> <img id="Fotos" src="../img/Carlos%20Hernan.jpg" height="130"
                     width="130"> </td>
               </tr>
               <tr>
                 <td>
                   <h3>
                     <p> <strong> <i>Nombre: HERNAN FELIPE LOZANO</i></strong><i>
-                      </i>
-                      <br>
+                      </i> <br>
                       Código: 1144171978<br>
                       Programa: Ingeniería de sistemas <br>
                       Correo Electrónico: hflozanor@unadvirtual.edu.co<br>
                       Usuario Skype: felipe210893</p>
                   </h3>
                 </td>
-                <td> <img id="Fotos" src="../img/Hernan%20Felipe.jpg" height="130"
-
+                <td> <img id="Fotos" src="../img/Hernan%20Felipe.jpg" height="130"
                     width="130"> </td>
               </tr>
               <tr>
                 <td>
                   <h3>
                     <p> <strong> <i>Nombre: ANTONY JHAN IERE MARIN QUIJANO</i></strong><i>
-                      </i>
-                      <br>
+                      </i> <br>
                       Código: <br>
                       Programa: Ingeniería de sistemas <br>
-                      Correo Electrónico: ajmarinquijano@unadvirtual.edu.co
-                      <br>
+                      Correo Electrónico: ajmarinquijano@unadvirtual.edu.co <br>
                       Usuario Skype: </p>
                   </h3>
                 </td>
-                <td> <img id="Fotos" src="../img/Antony%20Quijano.jpg" height="130"
-
+                <td> <img id="Fotos" src="../img/Antony%20Quijano.jpg" height="130"
                     width="130"></td>
               </tr>
             </tbody>
@@ -190,28 +170,27 @@
           al Campus Virtual</button> <br>
         <br>
         <h4>Programa de</h4>
-        <p>Tecnologia de desarrollo de software</p>
-        <h4>Codigo</h4>
+        <p>Tecnología de desarrollo de software</p>
+        <h4>Código</h4>
         <p>204226</p>
         <br>
         <div style="text-align:center;padding:1em 0;">
-          <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3687925"><span
-
+          <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3687925"><span
                 style="color:gray;">Hora actual en</span><br>
               Cali, Colombia</a></h2>
-          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&amp;size=large&amp;timezone=America%2FBogota"
-
+          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&amp;size=large&amp;timezone=America%2FBogota"
             seamless="" height="140" frameborder="0" width="100%"></iframe> </div>
         <br>
         <!--Widget -  Cronologia de Twitter UNAD -->
-        <div id="twitterUNAD"> <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
+        <div id="twitterUNAD"> <img src="../img/twitter-img.png">
+          <p>Lo invitamos a que nos sigas y te enteres de las últimas noticias,
+            eventos e información que proporciona la UNAD</p>
+          <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
             by @UniversidadUNAD</a> </div>
         <br>
         <h3>Visitas</h3>
-        <img src="../img/visitas.png" alt=""> <a href="http://www.reliablecounter.com"
-
-          target="_blank"><img id="contador" src="http://www.reliablecounter.com/count.php?page=https://carloscha82.github.io/Unad_OVA_301122_34_1-2018/&amp;digit=style/plain/1/&amp;reloads=0"
-
+        <img src="../img/visitas.png" alt=""> <a href="http://www.reliablecounter.com"
+          target="_blank"><img id="contador" src="http://www.reliablecounter.com/count.php?page=https://carloscha82.github.io/Unad_OVA_301122_34_1-2018/&amp;digit=style/plain/1/&amp;reloads=0"
             alt="" title="" border="0"></a><br>
         <a href="http://cuerpoaldente.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
       </aside>
