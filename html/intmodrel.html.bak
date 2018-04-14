@@ -24,11 +24,12 @@
     <!--script Cronologia de Twitter UNAD -->
     <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!--Fin script  Cronologia de Twitter UNAD-->
+     <link rel="icon" href="../img/logo_unad.gif.png">
   </head>
   <body>
     <header>
       <div id="logo-izq"></div>
-      <h1>OVA. Administracion de Base de Datos</h1>
+      <h1>OVI. Administracion de Base de Datos</h1>
       <div id="logo-der"></div>
     </header>
     <nav id="navbar">
@@ -46,21 +47,21 @@
                 LCD</a></li>
           </ul>
         </li>
-        <li><a href="multimedia.html">Multimedia</a>
+        <li><a href="../html/multimedia.html">Multimedia</a>
           <ul>
-            <li><a href="#" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
+            <li><a href="../html/intsgbdmodrel.html" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
             <li><a href="#" alt="">Instalacion de MySQL y Creacion de Modelo
                 Relacional</a></li>
           </ul>
         </li>
-        <li><a href="actividades.html">Actividades</a>
+        <li><a href="../html/actividades.html">Actividades</a>
           <ul>
             <li><a href="#" alt="">Actividad1</a></li>
             <li><a href="#" alt="">Actividad2</a></li>
             <li><a href="#" alt="">Actividad3</a></li>
           </ul>
         </li>
-        <li><a href="autores.html">Autores</a></li>
+        <li><a href="../html/Autores.html">Autores</a></li>
       </ul>
       <ul id="lista-nav">
         <li><a href="#">
@@ -175,7 +176,7 @@
             seamless="" height="140" frameborder="0" width="100%"></iframe> </div>
         <br>
         <!--Widget -  Cronologia de Twitter UNAD -->
-        <div id="twitterUNAD"> <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
+        <div id="twitterUNAD"> <img src="../img/twitter-img.png"><p>Lo invitamos a que nos sigas y te enteres de las últimas noticias, eventos e información que proporciona la UNAD</p><a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
             by @UniversidadUNAD</a> </div>
         <br>
         <h3>Visitas</h3>
